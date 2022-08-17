@@ -1,3 +1,3 @@
 export async function getUser(userId: Number) {
-    return null;
+    let uri = "https://scoresaber.com/api/";
 }

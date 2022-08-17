@@ -1,0 +1,45 @@
+.main {
+    text-align: center;
+    display: block;
+
+    .header {
+        color: #000;
+        display: flex;
+    }
+
+    .content {
+        margin-left: 1.5rem auto;
+        
+        display: flex;
+    }
+
+    .rounded-corners {
+        display: block;
+        background-color: rgb(255, 105, 180);
+        color: #fff;
+        border-radius: 0.5rem 0.5rem;
+        margin: 0.2rem;
+        font-family: Roboto;
+        padding: 0.2rem;
+        width: 3rem auto;
+    }
+
+    .inner {
+        background-color: rgb(54, 54, 54);
+    }
+    .flex {
+        display: inline flex;
+    }
+
+    .small-text {
+        font-size: smaller;
+    }
+
+
+    .footer {
+        color: #000;
+        
+        display: flex;
+    }
+}
+
