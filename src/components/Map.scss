@@ -1,0 +1,16 @@
+.main {
+    color: black;
+}
+
+card {
+    .roundedCorners {
+        border-radius: 2rem;
+        text-overflow: clip;
+        margin: 2rem auto;
+        padding: auto;
+    }
+}
+
+.roundedCorners {
+    border-radius: 2rem;
+}
