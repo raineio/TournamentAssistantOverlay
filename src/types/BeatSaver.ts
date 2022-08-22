@@ -1,6 +1,22 @@
 export type BeatSaver = {
-    // Full URI to the maps section of the BeatSaver page
-    uri: String,
-    // Map hash gotten from TA
-    hash: String,
-}
+    id: String;
+    metadata: {
+        bpm: Float32Array;
+        songName: string;
+        songSubName: string;
+        songAuthorName: string;
+        levelAuthorName: string;
+    };
+    versions: [
+    {
+        diffs: [
+        {
+            nps: Float32Array;
+            difficulty: string;
+            stars: Float32Array;
+        }
+        ];
+        coverURL: string; 
+    }
+    ];
+};

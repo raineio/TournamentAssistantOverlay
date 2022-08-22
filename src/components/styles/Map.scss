@@ -1,5 +1,4 @@
 .main {
-    text-align: center;
     display: block;
 
     .header {
@@ -21,18 +20,35 @@
         margin: 0.2rem;
         font-family: Roboto;
         padding: 0.2rem;
-        width: 3rem auto;
+        width: 30rem;
+    }
+
+    .song-card {
+        justify-content: left;
+    }
+
+    .song-card-img {
+        border-radius: 0.5rem;
+        display: inline-block;
+    }
+
+    .stay {
+        
+        display: flex;
+        min-width: 25rem;
+        max-width: 30rem;
     }
 
     .inner {
         background-color: rgb(54, 54, 54);
     }
     .flex {
-        display: inline flex;
+        display: flex;
     }
 
-    .small-text {
+    .subname {
         font-size: smaller;
+        padding-left: 0.5rem;
     }
 
 

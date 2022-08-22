@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export async function getMap(levelid: String) {
+export async function getMap(levelid: string) {
     let hash = levelid.replace("custom_level_", "");
     let uri = "https://api.beatsaver.com/maps/hash/";
     let url = uri + hash;
@@ -10,11 +10,7 @@ export async function getMap(levelid: String) {
     return data; 
 }
 
-export async function getCover(levelid: String) {
-    let hash = levelid.replace("custom_level_", "");
-    let uri = "https://api.beatsaver.com/maps/hash/";
-    let url = uri + hash + ".jpg";
-
+export async function getCover(url: string) {
     const { data } = await axios(url);
 
     return data; 
